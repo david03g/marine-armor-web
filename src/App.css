@@ -3,8 +3,10 @@
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  /* height: 40vmin; */
+  /* pointer-events: none; */
+  /* height: 100px; */
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +38,59 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card {
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 14px #00000029;
+  border-radius: 5px;
+}
+
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* Adjust height as needed */
+  height: 453px;
+  overflow: hidden;
+  /* border-radius: 10px; */
+}
+
+.video-background video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire area of video-background */
+}
+
+.overlay-content {
+  /* border-radius: 10px; */
+  padding: 25px;
+  background-color: rgba(0,0,0, .4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0px; 
+  /* left: 50%;  */
+  /* transform: translate(-50%, -50%);  */
+  text-align: center; /* Center the text and button */
+  color: #FFF; /* Text color */
+}
+
+.overlay-content2 {
+  /* border-radius: 10px; */
+  padding: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  justify-content: left;
+  top: 0px; 
+  /* left: 50%;  */
+  /* transform: translate(-50%, -50%);  */
+  text-align: center; /* Center the text and button */
+  color: #FFF; /* Text color */
+}
+
+
+
+
