@@ -28,7 +28,7 @@ function App() {
       }/>
       <HeroTile0/>
 
-      <VideoHero src={require('./art/timelapse3.mp4')} overlaycontent={
+      <VideoHero src={require('./art/licensed2.mp4')} overlaycontent={
           <>
             <div style={{marginTop:50}}/>
 
@@ -49,18 +49,9 @@ function App() {
         
         </>} />
 
+        <HeroTile/>
 
-
-<HeroTile/>
-
-
-
-
-
-
-
-
-        <VideoHero src={require('./art/licensed2.mp4')} overlaycontent={
+        <VideoHero src={require('./art/timelapse3.mp4')} overlaycontent={
           <>
             <div style={{marginTop:50}}/>
 
@@ -82,7 +73,6 @@ function App() {
         </>} />
      
         <InfoBoxes/>
-    <HeroTile/>
 
  
 

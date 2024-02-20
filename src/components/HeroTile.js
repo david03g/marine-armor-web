@@ -1,5 +1,5 @@
 
-function HeroTile({src, overlaycontent}) {
+function HeroTile({}) {
     return (
   
         <div style={{paddingBottom:0}}>

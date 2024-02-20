@@ -4,7 +4,7 @@ import * as React from 'react';import wheel from '../art/wheel.svg'
 function HeroTile0() {
 
   return (
-   <div style={{padding:20,backgroundColor:'#081424', borderRadius:10, borderRadius:0 }}>
+   <div style={{padding:25,backgroundColor:'#081424', borderRadius:10, borderRadius:0 }}>
     
     <p style={{fontSize:30, textAlign:'left', color:'#adddff', fontWeight:'bold'}}>Mission</p>
   
