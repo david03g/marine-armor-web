@@ -20,7 +20,8 @@ function VideoHero({ src, overlaycontent }) {
         <source src={src} type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
-      <button className="play-video-button" onClick={handlePlayVideo}>Play</button>
+      {/* Inline CSS to hide the button */}
+      <button className="play-video-button" onClick={handlePlayVideo} style={{ display: 'none' }}>Play</button>
       <div className="overlay-content">
         {overlaycontent}
       </div>
