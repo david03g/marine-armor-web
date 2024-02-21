@@ -7,15 +7,17 @@ import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
 import image2 from '../art/figure.png';
+import image3 from '../art/figure9.png';
+
 
 export default function InfoBoxes() {
   const boxData = [
-    {
-        title: "Boating Co-Pilot",
-        description: "Navigate Florida's complex geography",
-        buttonText: "Download",
-        imgSrc: image2, // Placeholder image URL
-      },
+    // {
+    //     title: "Boating Co-Pilot",
+    //     description: "Navigate Florida's complex geography",
+    //     buttonText: "Download",
+    //     imgSrc: image2, // Placeholder image URL
+    //   },
     {
       title: "Speed Watch",
       description: "Monitoring Florida's Manatee Zones",
@@ -24,9 +26,9 @@ export default function InfoBoxes() {
     },
     {
       title: "Research",
-      description: "Novel Insights",
+      description: "Evidence Based Insights",
       buttonText: "Read",
-      imgSrc: image2, // Placeholder image URL
+      imgSrc: image3, // Placeholder image URL
     },
     // {
     //   title: "Certification",

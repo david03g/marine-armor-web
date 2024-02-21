@@ -17,13 +17,13 @@ function HeroTile({}) {
 
               <br/>
               <br/>
-              Avoid fines up to $50,000 and/or jail time
+              Avoid fines up to $50,000 and/or jail time.
 
              
                     </p>
                      <div style={{marginTop:30, display:'flex', alignItems:'flex-end', flexDirection:'row', justifyContent:'space-between', justifyContent:'left'}}>
                       {/* <Button variant='contained' style={{height:40}}>Learn More</Button> */}
-                    <Button style={{marginRight:20, height:45, border:'1px solid white'}} variant="outlined"><p style={{color:'white'}}>Learn More</p></Button>
+                    {/* <Button style={{marginRight:20, height:45, border:'1px solid white'}} variant="outlined"><p style={{color:'white'}}>Learn More</p></Button> */}
 
                     {/* <img className='App-logo' height={80} width={80} src={wheel}/> */}
                     </div>

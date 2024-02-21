@@ -62,12 +62,16 @@ function App() {
         */}
 
             <p style={{fontSize:30, padding:20, width:'100%', textAlign:'center', color:'white', fontWeight:'bold'}}>
-              Recreational Boats?
-            </p>
+              Get Certified Today
+                          </p>
+
+                          <Button variant='contained'>Learn More</Button>
 
             {/* <div style={{display:'flex', alignItems:'flex-end', flexDirection:'row', justifyContent:'space-between', justifyContent:'center'}}>
             <Button variant='contained'><b>Learn More</b></Button>
             </div> */}
+
+            
         
         </div>} />
      

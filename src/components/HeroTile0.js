@@ -9,7 +9,8 @@ function HeroTile0() {
     <p style={{fontSize:30, textAlign:'left', color:'#adddff', fontWeight:'bold'}}>Mission</p>
   
             <p style={{width:'80%', fontWeight:'bold', color:"white", textAlign:'left'}}>
-            Our goal is to cut in half the mortality rate of manatees from watercraft collisions, 
+
+            Roughly 25% of manatee fatalities are due to collisions with watercraft. We aim to halve this mortality rate,
             promoting population growth and ending the cruelty associated with these gruesome vessel encounters.            </p>
              <div style={{display:'flex', alignItems:'flex-end', flexDirection:'row', justifyContent:'space-between', justifyContent:'right'}}>
               {/* <Button variant='contained' style={{height:40}}>Learn More</Button> */}
