@@ -16,7 +16,7 @@ function VideoHero({ src, overlaycontent }) {
 
   return (
     <div className="video-background">
-      <video ref={videoRef} loop muted playsInline autoPlay>
+      <video ref={videoRef} loop muted autoPlay>
         <source src={src} type="video/mp4"/>
         Your browser does not support the video tag.
       </video>
