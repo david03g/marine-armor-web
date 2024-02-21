@@ -6,13 +6,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 
-import image from '../art/manatee.jpeg'
-import image1 from '../art/manatee1.jpg'
-import image2 from '../art/figure.png'
-import image3 from '../art/boat.png'
-import wheel from '../art/wheel.svg'
-import badge from '../art/badge.webp'
-import timelapse1 from '../art/timelapse1.mp4';
+import image2 from '../art/figure.png';
 
 export default function InfoBoxes() {
   const boxData = [
