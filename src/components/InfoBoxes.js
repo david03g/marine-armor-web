@@ -59,7 +59,7 @@ export default function InfoBoxes() {
               </Typography>
             </CardContent>
             <CardContent>
-              <Button size="small" variant="contained">
+              <Button href='https://marinealpha-prototype.onrender.com' size="small" variant="contained">
                 <b>{box.buttonText}</b>
               </Button>
             </CardContent>
