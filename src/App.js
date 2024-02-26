@@ -9,6 +9,17 @@ import HeroTile0 from './components/HeroTile0';
 import Logo from './components/Logo';
 import Footer from './components/Footer';
 
+const CalendlyButton = () => {
+  const openCalendly = () => {
+    window.open('https://calendly.com/marinearmor', '_blank');
+  };
+
+  return (
+    <Button onClick={openCalendly} variant='contained'><b>Learn More</b></Button>
+  );
+};
+
+
 
 function App() {
   return (
@@ -62,10 +73,10 @@ function App() {
         */}
 
             <p style={{fontSize:30, padding:20, width:'100%', textAlign:'center', color:'white', fontWeight:'bold'}}>
-              Get Certified Today
+              Get Protected Today
                           </p>
 
-                          <Button variant='contained'>Learn More</Button>
+                          <CalendlyButton variant='contained'><b>Learn More</b></CalendlyButton>
 
             {/* <div style={{display:'flex', alignItems:'flex-end', flexDirection:'row', justifyContent:'space-between', justifyContent:'center'}}>
             <Button variant='contained'><b>Learn More</b></Button>
