@@ -6,8 +6,8 @@ function Footer({}) {
                   {/* You can include any other elements or text above the copyright notice as needed */}
                   
                   {/* Copyright notice */}
-                  <p style={{ width: '100%', fontWeight: 'bold', color: "#717274", textAlign: 'center', marginTop: '16px' }}>
-                      © {new Date().getFullYear()} Copyright Resonance Labs
+                  <p style={{ width: '100%', fontWeight: 'normal', color: "#717274", textAlign: 'center', marginTop: '14px' }}>
+                      © {new Date().getFullYear()} Resonance Labs
                   </p>
               </div>
           </div>
